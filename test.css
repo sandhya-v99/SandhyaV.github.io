@@ -1,0 +1,231 @@
+html,body {
+    height:100%;
+  }
+  
+  .first {
+    height:100vh;
+    min-height:400px;
+    background-size:cover;
+    background-image:url("a.jpg");
+    background-position: top center;
+  }
+  
+  .affix {
+    background-color: #eee;
+    -webkit-transition:padding 0.2s ease-out;
+    -moz-transition:padding 0.2s ease-out;  
+    -o-transition:padding 0.2s ease-out;         
+    transition:padding 0.2s ease-out;
+  }
+  
+  @media (min-width:768px) {
+      .affix-top {
+        /* navbar style at top */
+        background-color:transparent;
+        border-color:transparent;
+        padding: 15px;
+        -webkit-transition:all 0.5s ease;
+        -moz-transition:all 0.5s ease; 
+        -o-transition:all 0.5s ease;         
+        transition:all 0.5s ease;  
+      }
+  }
+  
+  nav .navbar-nav .nav-link,
+  nav .navbar-brand {
+     color: white;
+
+  }
+  
+  section {
+    height:calc(90% - 50px);
+    height: 90vh;
+  }
+  
+ 
+  .navbar.solid {
+    background-color: black;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+  }
+  .profile{
+    background-color: cornsilk;
+    min-height: 400px;
+}
+.image{
+    border-radius: 90%;
+}
+
+.centered {
+    color: cornsilk;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  hr.whitehr{
+    border: 1px solid white;
+  }
+.education {
+  background-color: white;
+}
+.contain{
+  padding: 20px 0px 30px 0px;
+}
+.skills{
+  background-color: cornsilk;
+}
+
+.image2 {
+  opacity: 1;
+  
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contain2:hover .image2 {
+  opacity: 0.3;
+}
+
+.contain2:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top:100px;
+  min-height: 150px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 20px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoGithub:hover {
+  background-color: #010203;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+
+@media (max-width:767px)
+{
+  .b{
+    font-size: 10px;
+  }
+}
