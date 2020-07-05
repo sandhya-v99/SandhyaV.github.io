@@ -1,7 +1,6 @@
 html,body {
     height:100%;
   }
-
   
   .first {
     height:100vh;
@@ -139,7 +138,9 @@ footer a:hover {
   padding-top: 2em;
   color: white;
 }
-
+.contact {
+  background-color: cornsilk;
+}
 
 /*SOCİAL İCONS*/
 
@@ -156,6 +157,7 @@ ul.social-network li {
   display: inline;
   margin: 0 5px;
 }
+
 
 .form-box {
   max-width: 500px;
@@ -174,6 +176,8 @@ h1, p {
 input, textarea {
   width: 100%;
 }
+
+
 /* footer social icons */
 
 .social-network a.icoGithub:hover {
@@ -240,9 +244,3 @@ input, textarea {
 }
 
 
-@media (max-width:767px)
-{
-  .b{
-    font-size: 10px;
-  }
-}
