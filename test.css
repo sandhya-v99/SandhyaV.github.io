@@ -157,7 +157,23 @@ ul.social-network li {
   margin: 0 5px;
 }
 
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+  color: #eee;
+  
+}
 
+h1, p {
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+}
 /* footer social icons */
 
 .social-network a.icoGithub:hover {
