@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-   
-   
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,7 +17,7 @@
     <nav id="nav" class="navbar fixed-top navbar-expand-sm" data-spy="affix">
         <div class="container">
             <a href="#" class="navbar-brand">Home</a>
-            <a class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">☰</a>
+            <a class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse" style="color:white">☰</a>
             <div class="navbar-collapse collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
@@ -53,9 +51,8 @@
                 <div class="row">
                   <div class="col-12 col-md-4 mt-5 text-center">
                       <h2> About me!</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsa sequi aspernatur tenetur reprehenderit blanditiis, quaerat ut rem ducimus consequatur doloremque molestias culpa, repellendus aut quae consequuntur non dicta ullam.</p>
+                      <p style="padding-top: 10px; font-style: italic;">I am a simple, ambitious, hardworking and sincere professional who is enthusiastic to face challenges and produce innovative solutions. I possess good leadership skills and fast learning capabilities making me distinct from others.</p>
                   </div>
-                  
                   <div class="col-12 col-md-4 mt-5 text-center">
                       <img src="./images/Screenshot_2019-04-15-01-24-32-091_com_1583005105514.instagram.android.jpg" height="100%" width="100%" alt="Sandhya V" class="image">
                      
@@ -109,16 +106,18 @@
                    <br/> ― Lailah Gifty Akita, Think Great: Be Great!</p>
                    <hr />
                 <div class="row">
-                    <div class="col-12 col-md-6 mt-5 text-center">
+                    <div class="col-6 col-md-6 mt-5 text-center">
                         <h4>Hard Skills</h4>
                         <ul class="list-unstyled">
-                            <li>Text</li>
-                            <li>Text 2</li>
-                            <li>Text 2</li>
-                            <li>Text 2</li>
+                            <li>Java</li>
+                            <li>SQL</li>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
                         </ul>
                 </div>
-                <div class="col-12 col-md-6 mt-5 text-center">
+                <div class="col-6 col-md-6 mt-5 text-center">
                     <h4>Soft Skills</h4>
                     <ul class="list-unstyled">
                         <li>Text</li>
@@ -194,20 +193,55 @@
                 <a type="button" class="btn btn-outline-dark" href="https://github.com/sandhya-v99" target="_blank"> <i  class="fa fa-github mr-2" ></i>Click here</a>
             </div>
         </div>
-        <div class="contact" id="contact">
+        </div>
+        <div class="contact" id="contact" style="background-color: cornsilk;">
+            <div class="container contain">
+
+
+            
             <h1 style="text-align: center;"> Contact Me </h1>
+            <p style="text-align: center;">Let's Communicate</p>
             <hr />
+                
+            <div class="form-box">
+                <h3>Drop a Message!</h3>
+                
+                <form id="contact-form" action="" method="post">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" id="name" type="text" name="Name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" id="email" type="email" name="Email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="Message" rquired></textarea>
+                  </div>
+                  <button class="btn btn-outline-success" type="submit">Submit</button>
+                  <div class="alert" style="display: none;  text-align: center;
+                  padding: 10px;
+                  background: rgb(168, 240, 177);
+                  color: green;
+                  margin-bottom: 10px;">Message Sent</div>
+                  </div>
+                </form>
+              </div>
+            
+            </div>
+        
 
             
 
-        </div>
+    
         
    
         <footer class="mainfooter" role="contentinfo">
             <div class="footer-middle">
             <div class="container">
               <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-4" style="text-align:center;">
                   <!--Column1-->
                   <div class="footer-pad">
                       <ul class="list-unstyled">
@@ -219,7 +253,7 @@
                  
                   </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-4" style="text-align:center;">
                   <!--Column1-->
                   <div class="footer-pad">
                     <ul class="list-unstyled">
@@ -229,25 +263,25 @@
                     
                   </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-4" style="text-align:center;">
                   <!--Column1-->
                   <div class="footer-pad">
                     <ul class="list-unstyled">
                         <li><a href="#projects">Projects</a></li>
-                        <li><a href="#Contact">Contact me</a></li>
+                        <li><a href="#Contact">Contact </a></li>
                   </div>
                 </div>
-                  <div class="col-md-3">
-                      <h4>Follow Me</h4>
-                      <ul class="social-network social-circle">
-                       <li><a href="#" class="icoGithub" title="Facebook"><i class="fa fa-github"></i></a></li>
-                       <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                      </ul>				
+                  
+                     			
                   </div>
               </div>
               <div class="row">
-                  <div class="col-md-12 copy">
-                      <p class="text-center">&copy; Copyright 2020.  All rights reserved.</p>
+                  <div class="col-md-12 copy text-center">
+                    <h4>Follow Me</h4>
+                    <ul class="social-network social-circle">
+                     <li><a href="https://github.com/sandhya-v99" target="_blank" class="icoGithub" title="Facebook"><i class="fa fa-github"></i></a></li>
+                     <li><a href="https://www.linkedin.com/in/sandhya-venkataramanan-86385096/" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>	
                   </div>
               </div>
           
@@ -262,6 +296,13 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
     <script>	
 $(document).ready(function() {
         // Transition effect for navbar 
@@ -275,5 +316,13 @@ $(document).ready(function() {
         });
 });
     </script>
+ 
+
+
+
+
+
+    <script src="main.js"></script>
 </body>
 </html>
+
